@@ -5,7 +5,7 @@ x=0
 browser = webdriver.Chrome('chromedriver/chromedriver.exe')
 browser.get("http://www.doenets.lk/result/alresult.jsf?")
 print ("Opened URL")
-while index <= 6535208 :
+while index <= 6535209 :
     browser.find_element_by_id('frm:username').clear()
     print(index)
     browser.find_element_by_id('frm:username').send_keys(str(index))
